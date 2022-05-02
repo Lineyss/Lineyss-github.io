@@ -1,0 +1,81 @@
+html,body {
+	height: 100%;
+    margin: 0;
+}
+body {
+    background-color:#001D18;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-direction:column;
+}
+canvas {
+	background-image: url("img/background.png");
+}
+p{
+	color:white;
+	font-size: 43px;
+    margin-left: 4%;
+	
+}
+.table{
+	display: flex;
+    justify-content: flex-start;
+	width: 40%;
+	margin-bottom: 1%;
+}
+
+.popap{
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	opacity:0;
+	visibility:hidden;
+}
+.popap_open{
+	opacity:1;
+	visibility:visible;
+}
+.popap_body{
+	min-height:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	padding:2px 10px;
+	height:100%;
+}
+.element{
+	background-color: #00a550;
+    padding: 30px;
+    position: relative;
+    width: 21%;
+    height: 31%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	border-radius:25px;
+	border:2px solid black;
+}
+button{
+	background-color: red;
+    margin-top: 1%;
+    font-size: 36px;
+    color: white;
+    margin-top: 8%;
+    margin-bottom: 10%;
+	border:2px solid black;
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+.close{
+	width:50%;
+}
+h1{
+	color:white;
+	font-size: 40px;
+}
